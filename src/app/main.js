@@ -33,7 +33,7 @@ function main() {
   });
   const boxOne = new BoxObject({ boxWidth: 1, boxHeight: 1, boxDepth: 1 });
   const materialGreenBlue = new PhongMaterial({ color: 0x44aa88 });
-  const materialRed = new PhongMaterial({ color: "blue" });
+  const materialRed = new PhongMaterial({ color: "red" });
   const cubeMesh = new Mesh({
     geometry: boxOne.get(),
     material: materialRed.get(),
